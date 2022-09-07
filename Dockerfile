@@ -4,4 +4,4 @@ RUN gem install gemstash
 
 EXPOSE 9292
 
-ENTRYPOINT gemstash start
+CMD /bin/bash
