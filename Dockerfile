@@ -4,4 +4,4 @@ RUN gem install gemstash
 
 EXPOSE 9292
 
-CMD ['gemstash', 'start']
+CMD ["gemstash", "start"]
