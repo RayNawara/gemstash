@@ -1,7 +1,3 @@
-FROM ruby:2.7
-
-RUN gem install gemstash
+FROM artemave/gemstash
 
 EXPOSE 9292
-
-CMD /bin/bash
