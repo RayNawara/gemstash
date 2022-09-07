@@ -1,3 +1,3 @@
 FROM artemave/gemstash
 
-EXPOSE 9392
+EXPOSE 9292
