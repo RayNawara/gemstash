@@ -1,6 +1,4 @@
-FROM ruby:3.1.2
-
-# RUN apt-get update && apt-get install ubuntu-dev-tools -y
+FROM ruby:2.7
 
 RUN gem install gemstash && gemstash start
 
